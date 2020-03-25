@@ -15,5 +15,7 @@ def start_handler(message: types.Message):
     bot.send_message(
         message.chat.id, "Нажми на кнопку и получи приложение для Android", reply_markup=markup)
 
+        
+
 
 bot.polling()
