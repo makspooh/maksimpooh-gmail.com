@@ -13,7 +13,7 @@ def start_handler(message: types.Message):
     markup.add(btn_app)
     bot.reply_to(message, "Привет! Я телеграм-бот приложения Smart Svit. Сейчас я могу выполнить только одно действие - поделиться с тобой ссылкой на скачивание приложения. Но скоро я научусь и другим вещам. До встречи :)")
     bot.send_message(
-        message.chat.id, "Нажми на кнопку и получи ссылку на приложение Android", reply_markup=markup)
+        message.chat.id, "Нажми на кнопку и получи приложение для Android", reply_markup=markup)
 
 
 bot.polling()
